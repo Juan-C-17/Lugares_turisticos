@@ -1,0 +1,122 @@
+
+body{
+    margin: 0;
+    background-color: ghostwhite;
+}
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background: url('Imágenes/fondo1.jpg');
+    color: black;
+    padding: 2rem 20rem;
+
+}
+
+header h1{
+    font-size: 3rem;
+    font-family: cursive;
+    text-align: center;
+}
+
+.contenido{
+    width: 650px;
+    height: 4000px;
+}
+
+section article{
+    transition: box-shadow 0.3 ease;
+    background-color: #33f256;
+    margin: 0rem 2rem;
+    border-radius: 5rem;
+    padding: 2rem 2rem;
+    cursor: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 1.01rem;
+} 
+section h1{
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+.conjunto1{
+    background-color: ghostwhite;
+    display: flex;
+}
+
+.conjunto2{
+    display: flex;
+    margin: 2rem 2rem;
+    background-color: ghostwhite;
+}
+
+.iza{
+    width: 500px;
+    height: 350px;
+    background: url('Imágenes/iza1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-property: background;
+    transition-duration: 2s;
+    border-radius: 5rem;
+}
+
+.iza:hover{
+    background: url('Imágenes/iza2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ati{
+    width: 500px;
+    height: 350px;
+    background: url('Imágenes/atitlán1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-property: background;
+    transition-duration: 2s;
+    border-radius: 5rem;
+}
+
+.ati:hover{
+    background: url('Imágenes/atitlán2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.peten{
+    width: 500px;
+    height: 350px;
+    background: url('Imágenes/peten1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-property: background;
+    transition-duration: 2s;
+    border-radius: 5rem;
+}
+
+.peten:hover{
+    background: url('Imágenes/peten2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tikal{
+    width: 500px;
+    height: 350px;
+    background: url('Imágenes/tikal1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-property: background;
+    transition-duration: 2s;
+    border-radius: 5rem;
+}
+
+.tikal:hover{
+    background: url('Imágenes/tikal2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
